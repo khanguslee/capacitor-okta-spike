@@ -1,2 +1,3 @@
 /node_modules
 build/*
+react-capacitor-okta/src/okta.config.json
