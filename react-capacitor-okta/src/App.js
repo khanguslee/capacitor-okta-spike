@@ -3,7 +3,12 @@ import { Security, ImplicitCallback } from '@okta/okta-react';
 import logo from './logo.svg';
 import './App.css';
 const config = require('./okta.config.json');
-console.log(config);
+
+const oktaConfig = {
+  issuer: config.organisationUrl,
+  redirect_uri: `${window.location.origin}/implicit/callback`,
+  client_id: config.clientId,
+};
 
 function App() {
   return (
