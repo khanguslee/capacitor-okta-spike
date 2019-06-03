@@ -1,0 +1,7 @@
+{
+  "appId": "com.example.reactCapicitorOkta",
+  "appName": "react-capacitor-okta",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build"
+}
