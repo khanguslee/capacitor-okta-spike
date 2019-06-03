@@ -1,6 +1,9 @@
 import React from 'react';
+import { Security, ImplicitCallback } from '@okta/okta-react';
 import logo from './logo.svg';
 import './App.css';
+const config = require('./okta.config.json');
+console.log(config);
 
 function App() {
   return (

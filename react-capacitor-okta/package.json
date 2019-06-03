@@ -5,8 +5,11 @@
   "dependencies": {
     "@capacitor/cli": "^1.0.0",
     "@capacitor/core": "^1.0.0",
+    "@okta/okta-auth-js": "^2.5.0",
+    "@okta/okta-react": "^1.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
